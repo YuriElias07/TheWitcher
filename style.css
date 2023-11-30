@@ -1,0 +1,285 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+
+video{
+    position: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    opacity: 0.3;
+    width: 100px;
+    padding-top: 0;
+}
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    background-color: #daa52085;
+    padding: 40px 3000px;
+}
+
+.logo{
+    position: fixed;
+    height: 40px;
+    left: 90px;
+    top: 20px;
+    height: 40px;
+}
+
+ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    font-family: 'Nova Square', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon img{
+    position: fixed;
+    height: 70px;
+    right: 20px;
+    top: 5px;
+}
+
+.icon img:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+}
+
+.menu{
+    position: fixed;
+    right: 200px;
+    top: 30px;
+    color: black;
+}
+
+nav a:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 0 6px black;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.sec1 img{
+    position: absolute;
+    height: 150px;
+    top: 180px;
+    right: 450px;
+    z-index: -1;
+}   
+
+.sec1 p{
+    position: absolute;
+    top: 430px;
+    right: 150px;
+    margin-left: 650px;
+    font-size: 18px;
+    font-family: 'Nova Square', sans-serif;
+    z-index: -1;
+}
+
+.sec1 h1{
+    position: absolute;
+    top: 380px;
+    color: white;
+    right: 505px;
+    font-family: 'Nova Square', sans-serif;
+    z-index: -1;
+}
+
+p{
+    color: white;
+}
+
+.geralt img{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    height: 600px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.geralt img:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+}
+
+.area1, .area2, .area3, .area4, .area5, .net{
+    visibility: hidden;
+}
+
+.sec2 h1{
+    position: absolute;
+    top: 1200px;
+    left: 120px;;
+    color: white;
+    font-family: 'Nova Square', sans-serif;
+    z-index: -1;
+}
+
+.sec2 img{
+    position: absolute;
+    height: 170px;
+    top: 1000px;
+    left: 200px;
+    z-index: -1;
+}
+
+.sec2 p{
+        position: absolute;
+        font-family: 'Nova Square', sans-serif;
+        top: 1250px;
+        margin-right: 600px;
+        left: 120px;
+        font-size: 18px;
+        z-index: -1;
+        
+}
+
+.ciri img{
+    position: absolute;
+    height: 500px;
+    top: 1000px;
+    right: 110px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.ciri img:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+}
+
+.sec3 h1{
+    position: absolute;
+    font-family: 'Nova Square', sans-serif;
+    top: 1850px;
+    right: 400px;
+    color: white;
+    z-index: -1;
+}
+
+.sec3 p{
+    position: absolute;
+    font-family: 'Nova Square', sans-serif;
+    top: 1900px;
+    margin-left: 630px;
+    margin-right: 150px;
+    font-size: 18px;
+    z-index: -1;
+}
+
+.sec3 img{
+    position: absolute;
+    height: 170px;
+    top: 1650px;
+    right: 480px;
+    z-index: -1;
+}
+
+.yennefer img{
+    position: absolute;
+    height: 390px;
+    opacity: 0.8;
+    top: 1770px;
+    left: 110px;
+    z-index: -1;
+}
+
+.yennefer img:hover{
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+}
+
+
+.dande img{
+    position: absolute;
+    height: 500px;
+    top: 2400px;
+    right: 150px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.sec4 h1{
+    position: absolute;
+    font-family: 'Nova Square', sans-serif;
+    top: 2500px;
+    color: white;
+    left: 200px;
+    z-index: -1;
+}
+
+.sec4 p{
+    position: absolute;
+    font-family: 'Nova Square', sans-serif;
+    top: 2550px;
+    left: 200px;
+    margin-right: 700px;
+    font-size: 18px;
+    z-index: -1;
+}
+
+.sec5 h1{
+    position: absolute;
+    top: 3100px;
+    left: 400px;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 35px;
+    color: white;
+    align-items: center;
+    z-index: -1;
+}
+
+.sec5 img{
+    position: absolute;
+    height: 200px;
+    top: 3130px;
+    left: 500px;
+    z-index: -1;
+}
+
+
+.trailer iframe{
+    position: absolute;
+    top: 3350px;
+    left: 400px;
+    opacity: 0.8;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+footer{
+    position: absolute;
+    top: 3800px;
+    background-color: #daa520d3;
+    padding: 30px 584px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.rpe img{
+    position: absolute;
+    height: 30px;
+    margin-right: 90px;
+    bottom: 9px;
+}
+
